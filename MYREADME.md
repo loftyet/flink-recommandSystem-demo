@@ -22,3 +22,9 @@ docker run -d \
   hlebalbau/kafka-manager:stable \
   -Dpidfile.path=/dev/null
 ```
+
+## Change config.properties
+`flink-2-hbase/src/main/resources/cofig.properities` to config
+
+## Change application.yml
+`web/src/main/resources/application.yml` to use my own
